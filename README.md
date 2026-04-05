@@ -64,4 +64,3 @@ By fine-tuning the pre-trained global weights for just 3 epochs, the new branch 
 ```text
 ├── FL_OWN_WITHOUT_FLOWERFRAME_TRY_4.ipynb   # Main Jupyter Notebook (Data pipeline, FedAtt, DP-SGD)
 ├── README.md                                # Project documentation
-└── [Insert Name of your PDF].pdf            # Final IEEE formatted research paper
