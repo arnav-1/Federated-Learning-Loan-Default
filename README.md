@@ -58,9 +58,23 @@ New, data-poor bank branches cannot normally participate in AI networks without 
 
 By fine-tuning the pre-trained global weights for just 3 epochs, the new branch instantly acquired functional predictive capabilities without exposing its 50 records to the network.
 
+### 4. Result Visualizations
+
+The experiment results are available as publication-ready figures in [`results/`](./results/):
+
+| Figure | Description |
+| :--- | :--- |
+| [Iterative performance](./results/01_iterative_performance_scaling_privacy.png) | Comparison of all four experiment variants across the evaluated metrics |
+| [Privacy and scaling impact](./results/02_dp_noise_data_scaling_utility.png) | Global accuracy and few-shot fine-tuning trends across experiments |
+| [Try 1: Baseline](./results/03_try_1_baseline_performance.png) | Performance matrix for the no-privacy baseline |
+| [Try 2: Differential privacy](./results/04_try_2_differential_privacy_performance.png) | Performance matrix after adding differential privacy |
+| [Try 3: Scale test](./results/05_try_3_scale_test_performance.png) | Performance matrix for the large-data scaling test |
+| [Try 4: Final model](./results/06_try_4_final_model_100k_performance.png) | Performance matrix for the final 100,000-row model |
+
 ---
 
 ## 📂 Repository Structure
 ```text
 ├── FL_OWN_WITHOUT_FLOWERFRAME_TRY_4.ipynb   # Main Jupyter Notebook (Data pipeline, FedAtt, DP-SGD)
 ├── README.md                                # Project documentation
+├── results/                                  # Publication-ready experiment figures
